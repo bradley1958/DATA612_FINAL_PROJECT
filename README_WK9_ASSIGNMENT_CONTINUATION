@@ -9,7 +9,13 @@ I uploaded the modified datasets to my GitHub account so that I could access the
 3.	I uploaded the dataset to Jupyter and began to explore and play with the modified data. I have several versions of my Jupyter Notebook for this set. 
 4.	I modified the CSV file to get better results, I have now been able to run the Logistic Regression modeling algorithm and Decision Tree modeling algorithm against the Tanzanian Water dataset without error codes.
 The initial results and accuracy scores were interesting.
-I have gotten a tuned accuracy result of nearly 60% with the Logistic Regression model and above 70% with the Decision Tree Classification Model.
+5. 5.	I have used the “.replace” syntax to replace all the “zero’s” in the “construction_year” column with the median year (1986).
+6.	I have used the “pd.to_datetime” syntax to change the date format of the “date_recorded” column to a “YYYY-MM-DD” format,
+although I didn’t include this new column “Date” in my regression analysis.
 URL:  https://github.com/bradley1958/DATA612_FINAL_PROJECT
-5.	I will add additional algorithm models this coming week and attempt to use a ROC curve to show the results of the three classifiers used in the modeling.  
+7.	I will add additional algorithm models this during week 10 and attempt to use a ROC curve to show the results of at least three classifiers
+used in the modeling of the Tanzanian Water Dataset.  
+8.	With the above modifications and the variable count now at 11 different columns being used in both the Logistic Regression and Decision Tree classifiers,
+the accuracy scores have increased by 1 percentage point for each method – 61% for the Logistic Regression, and 71% for the Decision Tree model.
+
 
