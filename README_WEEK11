@@ -1,1 +1,5 @@
+1.	I have removed the drop list syntax from my Final Project after learning that the “id” column must be part of the submission format.
+2.	I have added some additional data exploration features, such as a boxplot and a Seaborn Pair’s Plot.
+3.	The classifier model runs this week produced slightly higher accuracy scores; I believe this happens because more data features were being used by the classifier model runs.
+4.	Also, I have run the data through the model and made predictions. Exporting this to a CSV file in preparation for submission to the Drivendata.org website on the Tanzanian Water Project.
 
