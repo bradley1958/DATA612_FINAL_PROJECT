@@ -1,1 +1,8 @@
+1.	I have removed the drop list syntax from my Final Project after learning that the “id” column must be part of the submission format.
+2.	I have merged the coding in the “status group” column from 3 codes to just 2 codes. 
+3.	I wanted to see what scoring would take place if we just said that we “functional” pumps and “nonfunctional” pumps (codes: 0 and 1)
+4.	After completing this syntax revision, I ran the classification models again, which generated slightly higher accuracy scores. 
+5.	Additionally, since this modification took the variables to just 2 codes,
+I could also run the ROC comparison between the three classification models and didn’t have to deal with the “multiclass” error that I was getting.
+6.	I also ran the prediction syntax for this version of my project and exported the results to a CSV file in preparation for submission.
 
