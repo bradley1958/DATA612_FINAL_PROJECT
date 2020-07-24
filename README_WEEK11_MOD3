@@ -1,1 +1,5 @@
+Not happy with this attempt at a third rendition of the Tanzanian Water Dataset.
+Two of the three accuracy scores were between 50 to 55 percent.
+The Random Forest Classifier only came in at 39%.
 
+CSV file download will not post to the Drivendata.org page it keeps saying invalid "ids".
