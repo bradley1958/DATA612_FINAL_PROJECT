@@ -1,1 +1,27 @@
+README FILE - MODIFICATION 5/KNN ALGORITHM USAGE SUBMISSION 
+Data Cleaning
+1.	One of the major challenges faced with the Tanzanian Water Pump Dataset was that the data needed to allot if clean-up. Most of the variables were categorical with missing values of a considerate amount. Plus, many variables had multiple columns that had the same information in them - making it compatible with many existing classification algorithms. Some of the challenges are mentioned below:
+2.	Many variables had too many levels such as sub-village (19287 levels) making it practically of no use, thus I dropped that column from the classification model runs. Also, there were categorical features that had many levels (some with more than 20), but only a few had any bearing on the waterpoint_type or extraction_type  which made other variables less important. This problem was resolved by dropping columns with multiple meanings and converting categorical names to numeric values.
+3.	A few features were laid out with a categorical name and numeric value, such as region and district, both had code columns and were retained for model processing.
+4.	Several columns like construction_year, population, and gps_height had ‘0’ values all through the data element. This ‘0’ value was replaced with the column median value for both the training and test sets.
+Observations
+I came to the following observations from exploring the dataset before processing the data through the classification models:
+a.	Functional wells have more total static head (the water available to the water point).
+b.	Larger population centers have a higher probability of functional water points.
+c.	Almost all wells funded by the Government of Tanzania are “non-functional” or needed repair.
+d.	These regions had the highest number of functional wells - Iringa, Arusha, and Kilimanjaro.
+e.	The extraction type group and extraction type class might be very predictive because we see varying proportions of functionality across groups. For example, for extraction type class gravity and hand pump have a much higher proportion of being related to a functional well, as opposed to submersible and other types.
+f.	Groundwater has a greater proportion of nonfunctional wells.
+g.	Dry wells are almost always nonfunctional.
 
+Modification Number 5 – Using KNN as the Predictor Algorithm
+
+Using KNN boosted my score from 44.5% to 54.5% when I uploaded the prediction extract from my Jupyter Notebook. 
+I have run 7 different modification to the MOD5 submission on 28 July 2020. And nothing has produced better results for me. I think I am basically done with working and re-working this dataset to boost my score. I was hopefully, that KNN would get me in the 65% range and that would have made me very happy. 
+Not sure what else I can do at this point. I believe I gave considerable effort in trying to get inside or close to a 981 ranking (that would have been in the top 10%), but I will have to take being in the top 33% at 3037.
+
+FINAL PROJECT
+ORREN BRADLEY
+DATA 612 Data MINING
+JULY 27, 2020
+PROFESSOR TONY ISLAMAJ
