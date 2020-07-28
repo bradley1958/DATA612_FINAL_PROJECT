@@ -1,4 +1,8 @@
 README FILE - MODIFICATION 5/KNN ALGORITHM USAGE SUBMISSION 
+WEEK 11 PROGRESS REPORT
+DATA 612
+
+
 Data Cleaning
 1.	One of the major challenges faced with the Tanzanian Water Pump Dataset was that the data needed to allot if clean-up. Most of the variables were categorical with missing values of a considerate amount. Plus, many variables had multiple columns that had the same information in them - making it compatible with many existing classification algorithms. Some of the challenges are mentioned below:
 2.	Many variables had too many levels such as sub-village (19287 levels) making it practically of no use, thus I dropped that column from the classification model runs. Also, there were categorical features that had many levels (some with more than 20), but only a few had any bearing on the waterpoint_type or extraction_type  which made other variables less important. This problem was resolved by dropping columns with multiple meanings and converting categorical names to numeric values.
