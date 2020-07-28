@@ -1,1 +1,13 @@
+I have had to completely restructure my approach to solving this problem.
+I have loaded both the Train and Test Sets of the Tanzanian Water Study to my Jupyter Notebook and run the following algorithms against these:
+Logistic Regression
+Decision Tree
+Random Forest
+After running these classifiers, I ran the data through the model and made predictions based on the highest accuracy score.
+The best score was from using the Random Forest classifier with grid search.
+I found out through trial and error that this was the only way to get results uploaded to the “Drivendata.org” – Pump It Up submission location. 
+This was done by creating a “Prediction” group from the Test Set of data.
+This is seen in the MOD4 Jupyter Notebook upload to my GitHub account.
+So far, the best score that I have gotten is just over 52% with Random Forest.
+The next modification I plan will use KNN as an algorithm, hopefully, this will produce additional positive results.  
 
